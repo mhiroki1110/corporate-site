@@ -497,8 +497,17 @@ h1{
     margin: 0;
     letter-spacing: 0.2rem;
     line-height: 1.25;
+    
+    @media (min-width: 550px) {
+     text-align: center;
+     color: white;
+     font-size: 32px;
+     font-size: 3.2rem;
+     font-weight: bold;
+     margin: 0;
+     letter-spacing: 0.2rem;
+    }
   }
-  
 }
 
 #contents{
