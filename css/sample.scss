@@ -268,21 +268,22 @@ header {
   .news_title{
 
     text-align: center;
-    @include fontsize(26);
-    color: $blue1;
+    font-size: 2.6rem;
+    color: #42b9d0;
     padding: 15px 0 10px 0;
     font-weight: bold;
     letter-spacing: 0.2rem;
+    // font-family: Raleway;
   }
 
-  .news_li{
+  .news_lists{
 
     li{
       list-style: none;
-      @include fontsize(15);
+      font-size: 1.5rem;
 
       span{
-        color: $blue1;
+        color: #42b9d0;
         font-weight: bold;
         display: block;
         margin-bottom: 3px;
@@ -692,4 +693,14 @@ h3{
 line-height: 1.3;
 margin-top: 0;
 display: block;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+h2 {
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 2rem;
 }
